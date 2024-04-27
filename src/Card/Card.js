@@ -1,6 +1,6 @@
 import React from 'react'
 import './Card.css'
-import profilePic from '../Assets/531773_10201591896869761_1623443073_n.jpg'
+import profilePic from '../Assets/received_231518876607829.jpeg'
 import linkedin from '../Assets/Svg.js'
 
 

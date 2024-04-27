@@ -53,10 +53,10 @@
   font-weight: 600;
   cursor: pointer;
 }
-.call-btn{
-    color: #0077b5;
-    background: #ff7c25;
-    transition: 0.4s ease;
+.call-btn {
+  color: #0077b5;
+  background: #ff7c25;
+  transition: 0.4s ease;
 }
 .call-btn:hover {
   color: #ff7c25;
@@ -90,19 +90,24 @@
   fill: #0077b5;
   transition: 0.2s ease;
 }
-.article-container{
-    margin-bottom: 20px;
-    width: 700px;
+.article-container {
+  margin-bottom: 20px;
+  width: 700px;
 }
 
 .article-container h3 {
-margin:20px 0;
+  color: #ff7c25;
+  margin: 20px 0;
+}
+.article-container p {
+  margin: 20px 0;
 }
 .progressbar-container {
   margin-bottom: 30px;
 }
-.progressbar-container h3{
-    margin: 10px 0;
+.progressbar-container h3 {
+  color: #ff7c25;
+  margin: 10px 0;
 }
 .progress-bar {
   margin-bottom: 10px;
@@ -140,10 +145,14 @@ margin:20px 0;
     width: 600px;
     height: 400px;
   }
-  .progress-bar{
+  .progress-bar {
     width: 500px;
   }
-  .btn{
+  .article-container {
+    margin: 20px;
+    width: 500px;
+  }
+  .btn {
     width: 500px;
   }
 }
@@ -155,14 +164,14 @@ margin:20px 0;
     width: 400px;
     height: 400px;
   }
-  .progress-bar{
+  .progress-bar {
     width: 300px;
   }
-  .article-container{
+  .article-container {
     margin: 20px;
     width: 300px;
   }
-  .btn{
+  .btn {
     width: 350px;
   }
 }
