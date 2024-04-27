@@ -1,6 +1,6 @@
 import React from 'react'
 import './Card.css'
-import profilePic from '../Assets/received_231518876607829.jpeg'
+import profile from '../Assets/received_231518876607829.jpeg'
 import linkedin from '../Assets/Svg.js'
 
 
@@ -8,7 +8,7 @@ function Card() {
   return (
     <div className='card-container'>
         <div className='image-card-container'>
-        <img src={profilePic} alt="" />
+        <img src={profile} alt="" />
         </div>
         <div className='info-container'>
         <h1>Hassan Wilson</h1>
