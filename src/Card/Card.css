@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 800px;
+  background: #1e1e22;
+  align-items: center;
+}
+.info-container {
+  margin-top: 20px;
+}
+.info-container h2 {
+  color: #ff7c25;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.info-container h3 {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.image-card-container {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+  background: green;
+}
+.image-card-container img {
+  width: 100%;
+  object-fit: cover;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.btn {
+  color: white;
+  height: 60px;
+  width: 600px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.call-btn{
+    color: #0077b5;
+    background: #ff7c25;
+    transition: 0.4s ease;
+}
+.call-btn:hover {
+  color: #ff7c25;
+  background: #0077b5;
+}
+.email-btn {
+  background: white;
+  color: #ff7c25;
+  transition: 0.4s ease;
+}
+.email-btn:hover {
+  background: #ff7c25;
+  color: white;
+}
+.linkedin-btn {
+  background: #0077b5;
+  color: white;
+  transition: 0.4s ease;
+}
+.linkedin-btn .linkedin-icon {
+  position: relative;
+  top: 3px;
+  fill: white;
+}
+.linkedin-btn:hover {
+  background: white;
+  color: #0077b5;
+  fill: #0077b5;
+}
+.linkedin-btn:hover .linkedin-icon path {
+  fill: #0077b5;
+  transition: 0.2s ease;
+}
+.article-container{
+    margin-bottom: 20px;
+    width: 700px;
+}
+
+.article-container h3 {
+margin:20px 0;
+}
+.progressbar-container {
+  margin-bottom: 30px;
+}
+.progressbar-container h3{
+    margin: 10px 0;
+}
+.progress-bar {
+  margin-bottom: 10px;
+  width: 700px;
+  height: 30px;
+  background: #333336;
+  border-radius: 15px;
+  transition: 0.4s ease;
+}
+.progress {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  background: #0077b5;
+  border-radius: 15px;
+  justify-content: space-between;
+}
+.progress .title {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-left: 10px;
+}
+.progress .percentage {
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+@media (max-width: 600px) {
+  .card-container {
+    width: 600px;
+  }
+  .image-card-container {
+    width: 600px;
+    height: 400px;
+  }
+  .progress-bar{
+    width: 500px;
+  }
+  .btn{
+    width: 500px;
+  }
+}
+@media (max-width: 400px) {
+  .card-container {
+    width: 400px;
+  }
+  .image-card-container {
+    width: 400px;
+    height: 400px;
+  }
+  .progress-bar{
+    width: 300px;
+  }
+  .article-container{
+    margin: 20px;
+    width: 300px;
+  }
+  .btn{
+    width: 350px;
+  }
+}
