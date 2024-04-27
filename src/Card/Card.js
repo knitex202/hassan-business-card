@@ -8,7 +8,7 @@ function Card() {
   return (
     <div className='card-container'>
         <div className='image-card-container'>
-        <img src={profile} alt="" />
+        <img src={profile} alt="Me and my wife" />
         </div>
         <div className='info-container'>
         <h1>Hassan Wilson</h1>
