@@ -77,6 +77,12 @@ function Card() {
             <p class="percentage">85%</p>
           </div>
         </div>
+        <div className="progress-bar">
+          <div class="progress" style={{ width: "45%" }}>
+            <p class="title">Python</p>
+            <p class="percentage">45%</p>
+          </div>
+        </div>
       </div>
     </div>
   );
