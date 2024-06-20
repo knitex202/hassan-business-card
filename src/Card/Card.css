@@ -8,15 +8,16 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 100vw;
+  width: 100%;
   background: #1e1e22;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   object-fit: cover;
 }
+
 .info-container {
-  margin: 10px 0 20px 0;
+  padding: 10px 0 20px 0;
 }
 .info-container h2 {
   color: #ff7c25;
