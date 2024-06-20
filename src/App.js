@@ -6,7 +6,7 @@ import QrCodeLink from "./Card/QrCodeLink";
 import { useState } from "react";
 
 function App() {
-  const [selected, setSelected] = useState(false);
+  const [selected, setSelected] = useState(true);
 
   const handleClick = () => {
     setSelected(!selected);
